@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Title</title>
+  </head>
+  <body>
+    <script>
+      const lastName = "jones";
+      const user = {
+        firstName: "joe",
+        age: 27,
+        isAtBitwise: true,
+        lastName: lastName,
+        address: {
+          streetNumber: 227,
+          streetName: "van ness"
+        },
+        streetNumber: 227,
+        streetName: "van ness",
+        classesTakenAtBitwise: ["html", "css", "js"]
+      };
+      console.log(user.address.streetNumber);
+      console.log(user["address"]["streetNumber"]);
+    </script>
+  </body>
+</html>
